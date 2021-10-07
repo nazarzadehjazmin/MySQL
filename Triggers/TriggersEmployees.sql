@@ -99,8 +99,8 @@ DELIMITER ;
 -- NO FUNCIONA ESTE BEFORE UPDATE
 
 UPDATE employees               
-SET first_name = 'Carla'  
-WHERE emp_no = 44; 
+SET first_name = null  
+WHERE emp_no = 222; 
 -- No me permite modificar la tabla que cargue, solo los datos nuevos que inserte
 -- No me permite hacer mas de un update
 
